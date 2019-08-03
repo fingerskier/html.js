@@ -1,2 +1,2 @@
 # html.js
-Super-lame HTML templating vanilla JS
+Super-lame HTML templating w/ vanilla JS
