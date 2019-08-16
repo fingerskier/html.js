@@ -8,6 +8,10 @@ function attributes(attr) {
     return result
 }
 
+function table(innards, attr={}) {
+    return `<table ${this.attributes(attr)}>${innards}</table>`
+}
+
 function tr(innards, attr={}) {
     return `<tr ${this.attributes(attr)}>${innards}</tr>`
 }
